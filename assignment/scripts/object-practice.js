@@ -46,9 +46,19 @@ console.log('this is the last item in the food array', me.favThreeFoods[2]);
 
 console.log('current shoe count is', me.shoeCount);
 
+me.shoeCount =2;
+
+console.log('added more shoes!', me.shoeCount);
+
 /* 5. Add a new property to an existing object.
   - Add a 'favoriteColor' to your existing object
   - Do this the same way you updated the variable above
   - Cool huh? It works, even though it wasn't there before
   - Console.log your object
 */
+
+console.log('current properties in me', me);
+
+me.favoriteColor = 'blue';
+
+console.log('updated properties in me', me);

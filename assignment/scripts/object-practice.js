@@ -44,6 +44,7 @@ console.log('this is the last item in the food array', me.favThreeFoods[2]);
   - Console.log your updated shoe count. 
 */
 
+console.log('current shoe count is', me.shoeCount);
 
 /* 5. Add a new property to an existing object.
   - Add a 'favoriteColor' to your existing object
